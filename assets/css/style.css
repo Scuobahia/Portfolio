@@ -78,7 +78,8 @@ section h2::before {
     margin: 50px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;;
 }
-.hero-cta {
+.hero1 {
+    
     padding: 0px;
     width: 25%;
     text-align: right;
@@ -93,26 +94,12 @@ section h2::before {
       color:#01fe87;
       font-size: 50px;
   }
-  .run {
-    display: flex;
- margin: 100px;
-    border: 1px solid #ddd;
+  .images {
+    margin: 100px;
+    border: 1px solid #01fe87;
     border-radius: 4px;
     padding: 5px;
-    width: 900px;
-
-
-    
-  /* .web-development{
-    margin: 50px;
-    padding: 250px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-image: url("../images/buddy.png");
-    background-size: cover;
-  
-   */
+    width: 800px;
   }
   .text-animation {
       animation: type 3s steps(22);
@@ -131,5 +118,21 @@ section h2::before {
       width: 22ch;
   }
 }
-
+.text-animation:hover{
+    animation-iteration-count:infinite;
+  
+}
+@keyframes type{
+ 0%   {
+     width: 0ch;
+ }
+100% {
+    width: 22ch;
+}
+}
+.web-development {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
    
