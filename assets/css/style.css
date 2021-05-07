@@ -79,7 +79,7 @@ section h2::before {
     font-family:Verdana, Geneva, Tahoma, sans-serif;;
 }
 .hero-cta {
-    padding: 50px;
+    padding: 0px;
     width: 25%;
     text-align: right;
     margin: 3.5%;
@@ -93,3 +93,43 @@ section h2::before {
       color:#01fe87;
       font-size: 50px;
   }
+  .run {
+    display: flex;
+ margin: 100px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 900px;
+
+
+    
+  /* .web-development{
+    margin: 50px;
+    padding: 250px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url("../images/buddy.png");
+    background-size: cover;
+  
+   */
+  }
+  .text-animation {
+      animation: type 3s steps(22);
+      overflow: hidden;
+      white-space: nowrap;
+      font-family: monospace;
+      border-right: 4px solid black;
+      width: 22ch;
+
+  }
+  @keyframes type{
+   0%   {
+       width: 0ch;
+   }
+  100% {
+      width: 22ch;
+  }
+}
+
+   
