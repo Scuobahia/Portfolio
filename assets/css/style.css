@@ -3,7 +3,7 @@ header h1 {
     background-color: #ffffff;
     text-align: center;
     font-family:monospace;
-    font-size: 20px;
+    font-size: px;
     font-weight: lighter;
     padding: 20px 35px;
     margin: 20px;
@@ -75,7 +75,7 @@ section h2::before {
 /* End of Animation */
 
 /* Hero */
-.mywork{
+.title{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -83,6 +83,8 @@ section h2::before {
     font-weight: lighter;
     font-size: 20px;
     letter-spacing: 1px;
+  
+
 }
 .hero {
     display: flex;
@@ -113,13 +115,13 @@ section h2::before {
   }
   /* Website Development/Graphic Design */
   .images {
-      margin: 20px;
+    margin: 20px;
+    padding: 15px;
     border: 1px solid #01fe87;
     border-radius: 4px;
-    padding: 5px;
     width: 800px;
   }
-  
+
 .web-development {
     display: flex;
     flex-wrap: wrap;
@@ -133,56 +135,100 @@ section h2::before {
  
    .images2 {
     margin: 50px;
+    padding: 15px;
     border: 1px solid #252839;
     border-radius: 4px;
     width: 700px;
    }
    .text {
-       text-align: center;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
        font-family: monospace;
        font-weight: lighter;
        font-size: 20px;
        color: #252839;
    }
+   .zoom {
+    transition: transform .2s;
+    opacity: 1;  
+    }
+  .zoom:hover {
+    transform: scale(1.2); 
+    opacity: 0.3;
+    }
 
+/* Reach out
+ */
 
-
-
-
-
-
-
-
-
-
-
-
-    /* .text-animation {
-      animation: type 3s steps(50);
-      overflow: hidden;
-      white-space: nowrap;
-      font-family: monospace;
-      border-right: 4px solid black;
-      width: 22ch;
+  .contact h2 {
+    color:#252839;
 
   }
-  @keyframes type{
-   0%   {
-       width: 0ch;
-   }
-  100% {
-      width: 22ch;
+  .contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
-}
-.text-animation:hover{
-    animation-iteration-count:infinite;
   
-}
-@keyframes type{
- 0%   {
-     width: 0ch;
- }
-100% {
-    width: 22ch;
-}
-}
+  .contact-info > * {
+    flex: 1;
+    margin: 15px;
+  }
+  
+  
+  .contact-info div {
+    color: #252839;
+  }
+  
+  .contact-info h3 {
+    color: var(--primary-color);
+    font-size: 32px;
+  }
+  
+  .contact-info p, .contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 16px;
+    font-style: normal;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    border-right: 1px solid #01fe87;
+    border: 1px solid;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color:#01fe87 ;
+    width: 50%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+  
+  }
+  
+  .contact-form input:focus, .contact-form textarea:focus {
+    background-color:#01fe87;
+    outline: none;
+  }
+
+  
+  .contact-form button {
+    width: 50%;
+    border: none;
+    background:#252839;
+    color: #01fe87;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+  
+  .contact-form button:hover {
+    color:#01fe87;
+    background:#ffffff;
+  }
+  
+  .contact-info a {
+    color:#01fe87;
+  }
