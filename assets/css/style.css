@@ -3,7 +3,7 @@ header h1 {
     background-color: #ffffff;
     text-align: center;
     font-family:monospace;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: lighter;
     padding: 20px 35px;
     margin: 20px;
@@ -11,6 +11,10 @@ header h1 {
    
 }
 header nav ul {
+    
+    position: relative;	
+	padding: 1px 4px;
+	padding-right: 3px;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -19,8 +23,10 @@ header nav ul {
     font-family:monospace;
     font-weight: lighter;
     font-size: 20px;
+    letter-spacing: 1px;
  
 }
+
 header a {
     color: #252839;
     text-decoration: none;
@@ -31,6 +37,7 @@ header nav ul li a:hover {
     text-decoration: underline;
     text-underline-offset: 20px;
   }
+  
 /* Animation */
 section h2 {
     position: relative;
@@ -68,6 +75,15 @@ section h2::before {
 /* End of Animation */
 
 /* Hero */
+.mywork{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family:monospace;
+    font-weight: lighter;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
 .hero {
     display: flex;
     justify-content: center;
@@ -92,16 +108,56 @@ section h2::before {
   }
   span{
       color:#01fe87;
-      font-size: 50px;
+      font-size: 30px;
+      
   }
+  /* Website Development/Graphic Design */
   .images {
-    margin: 100px;
+      margin: 20px;
     border: 1px solid #01fe87;
     border-radius: 4px;
     padding: 5px;
     width: 800px;
   }
-  .text-animation {
+  
+.web-development {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+   .graphic-design {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   }
+ 
+   .images2 {
+    margin: 50px;
+    border: 1px solid #252839;
+    border-radius: 4px;
+    width: 700px;
+   }
+   .text {
+       text-align: center;
+       font-family: monospace;
+       font-weight: lighter;
+       font-size: 20px;
+       color: #252839;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* .text-animation {
       animation: type 3s steps(50);
       overflow: hidden;
       white-space: nowrap;
@@ -130,20 +186,3 @@ section h2::before {
     width: 22ch;
 }
 }
-.web-development {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-   .graphic-design {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-   }
-   .images2 {
-    margin: 100px;
-    border: 1px solid #252839;
-    border-radius: 4px;
-    padding: 5px;
-    width: 800px;
-   }
