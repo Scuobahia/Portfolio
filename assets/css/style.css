@@ -8,10 +8,8 @@ header h1 {
     padding: 20px 35px;
     margin: 20px;
     color: #252839;
-   
 }
 header nav ul {
-    
     position: relative;	
 	padding: 1px 4px;
 	padding-right: 3px;
@@ -24,7 +22,6 @@ header nav ul {
     font-weight: lighter;
     font-size: 20px;
     letter-spacing: 1px;
- 
 }
 
 header a {
@@ -32,12 +29,11 @@ header a {
     text-decoration: none;
 }
 header nav ul li a:hover {
-    color:#01fe87;
+    color:#F2B157;
     text-shadow: none;
     text-decoration: underline;
     text-underline-offset: 20px;
-  }
-  
+}
 /* Animation */
 section h2 {
     position: relative;
@@ -45,7 +41,6 @@ section h2 {
     color: #252839;
     -webkit-text-stroke: 0.1vw #ffffff;
     text-transform: uppercase;
-
 }
 section h2::before {
     content: attr(data-text);
@@ -59,7 +54,6 @@ section h2::before {
     border-right: 1px solid #01fe87;
     overflow: hidden;
     animation: animate 10s;
-   
 }
 @keyframes animate
 {
@@ -78,13 +72,11 @@ section h2::before {
 .title{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    justify-content:center ;
     font-family:monospace;
     font-weight: lighter;
     font-size: 20px;
     letter-spacing: 1px;
-  
-
 }
 .hero {
     display: flex;
@@ -96,104 +88,80 @@ section h2::before {
     margin: 50px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-.hero1 {
-    
-    padding: 0px;
-    width: 25%;
-    text-align: right;
-    margin: 3.5%;
-    color:#252839;
-    font-size: 22px;
-    line-height: 1.2;
-    font-family:monospace;
-    font-weight: lighter;
-  }
-  span{
+span{
       color:#01fe87;
       font-size: 30px;
-      
-  }
+}
   /* Website Development/Graphic Design */
-  .images {
+.images {
     margin: 20px;
     padding: 15px;
     border: 1px solid #01fe87;
     border-radius: 4px;
     width: 800px;
-  }
-
+}
 .web-development {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-   .graphic-design {
+.graphic-design {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-   }
- 
-   .images2 {
+}
+.images2 {
     margin: 50px;
     padding: 15px;
     border: 1px solid #252839;
     border-radius: 4px;
     width: 700px;
-   }
-   .text {
+}
+.text {
        display: flex;
        flex-wrap: wrap;
-       justify-content: center;
+       justify-content:space-between;
        font-family: monospace;
        font-weight: lighter;
        font-size: 20px;
-       color: #252839;
-   }
-   .zoom {
+       color: #F2B157;
+}
+.zoom {
     transition: transform .2s;
     opacity: 1;  
-    }
-  .zoom:hover {
+}
+.zoom:hover {
     transform: scale(1.2); 
     opacity: 0.3;
     }
-
-/* Reach out
- */
-
-  .contact h2 {
-    color:#252839;
-
-  }
-  .contact-info {
+/* Reach out Style*/
+.contact-info {
+    background-color: #F2B157;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
-  }
-  
-  .contact-info > * {
+    padding: 50px;
+    width: auto;
+    height:auto;
+    border: 2px solid #252839; 
+    border-radius: 10px;
+}
+.contact-info > * {
     flex: 1;
     margin: 15px;
-  }
-  
-  
-  .contact-info div {
+}
+.contact-info h3 {
     color: #252839;
-  }
-  
-  .contact-info h3 {
-    color: var(--primary-color);
     font-size: 32px;
-  }
-  
-  .contact-info p, .contact-info address {
+}
+.contact-info p, .contact-info address {
     margin: 20px 0;
     line-height: 1.5;
     font-size: 16px;
     font-style: normal;
-  }
-  
-  .contact-form input, .contact-form textarea {
+}
+.contact-form input, .contact-form textarea {
     border-right: 1px solid #01fe87;
     border: 1px solid;
     display: block;
@@ -204,16 +172,12 @@ section h2::before {
     margin-bottom: 15px;
     margin-top: 5px;
     border-radius: 10px;
-  
-  }
-  
-  .contact-form input:focus, .contact-form textarea:focus {
+}
+.contact-form input:focus, .contact-form textarea:focus {
     background-color:#01fe87;
     outline: none;
-  }
-
-  
-  .contact-form button {
+}
+.contact-form button {
     width: 50%;
     border: none;
     background:#252839;
@@ -222,13 +186,12 @@ section h2::before {
     padding: 15px 0;
     font-size: 16px;
     border-radius: 10px;
-  }
-  
-  .contact-form button:hover {
-    color:#01fe87;
+}
+.contact-form button:hover {
+    color:#252839;
     background:#ffffff;
-  }
-  
-  .contact-info a {
+}
+.contact-info a {
     color:#01fe87;
-  }
+}
+  /* Reach Out Stylet ends */
