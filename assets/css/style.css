@@ -76,7 +76,7 @@ section h2::before {
     min-height: 30vh;
     background: #252839;
     margin: 50px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .hero1 {
     
@@ -102,7 +102,7 @@ section h2::before {
     width: 800px;
   }
   .text-animation {
-      animation: type 3s steps(22);
+      animation: type 3s steps(50);
       overflow: hidden;
       white-space: nowrap;
       font-family: monospace;
@@ -135,4 +135,15 @@ section h2::before {
     flex-wrap: wrap;
     justify-content: space-around;
 }
-   
+   .graphic-design {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   }
+   .images2 {
+    margin: 100px;
+    border: 1px solid #252839;
+    border-radius: 4px;
+    padding: 5px;
+    width: 800px;
+   }
