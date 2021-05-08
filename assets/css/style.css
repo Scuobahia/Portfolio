@@ -23,7 +23,6 @@ header nav ul {
     font-size: 20px;
     letter-spacing: 1px;
 }
-
 header a {
     color: #252839;
     text-decoration: none;
@@ -34,7 +33,7 @@ header nav ul li a:hover {
     text-decoration: underline;
     text-underline-offset: 20px;
 }
-/* Animation */
+/* Animation in header */
 section h2 {
     position: relative;
     font-size: 10vh;
@@ -95,16 +94,45 @@ span{
   /* Website Development/Graphic Design */
 .images {
     margin: 20px;
-    padding:15px;
+    padding:10px;
     border: 1px solid #01fe87;
     border-radius: 4px;
-    height: 30em; margin-right: 1%;margin-bottom: 0.5em;
+    height: 20em; margin-right: 1%;margin-bottom: 0.5em;
 }
 .web-development {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
+/* Website Development Animation */
+.zoom {
+    transition: transform .2s;
+    opacity: 1;  
+}
+.zoom:hover {
+    transform: scale(1.1); 
+    opacity: 0.3;
+    }
+ /* Image Overlay */
+.container {
+    position:relative ;
+ }
+.imagetext {
+position: absolute;
+font-family: monospace;
+color: #252839;
+font-weight: bold;
+font-size: 40px;
+letter-spacing: 2px;
+top: 30%;
+left: 30%;
+text-align: center;
+opacity: 0;
+ }
+.container:hover .imagetext {
+opacity: 1;
+ }
+/* Graphic Design Image Animation*/
 .graphic-design {
     display: flex;
     flex-wrap: wrap;
@@ -112,11 +140,24 @@ span{
 }
 .images2 {
     margin: 50px;
-    padding: 15px;
+    padding: 10px;
     border: 1px solid #252839;
     border-radius: 4px;
     height: 30em; margin-right: 1%;margin-bottom: 0.5em;
 }
+.color img{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+ }
+ .color img:hover {
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+ }
+   
 .text {
        display: flex;
        flex-wrap: wrap;
@@ -126,22 +167,13 @@ span{
        font-size: 20px;
        color: #F2B157;
 }
-.zoom {
-    transition: transform .2s;
-    opacity: 1;  
-}
-.zoom:hover {
-    transform: scale(1.1); 
-    opacity: 0.3;
-    }
-  
 /* About me Styles */
 .images3 {
     margin: 50px;
-    padding: 15px;
+    padding: 10px;
     border: 1px solid #F2B157;
     border-radius: 4px;
-    height: 50em; margin-right: 1%;margin-bottom: 0.5em;
+    height: 40em; margin-right: 1%;margin-bottom: 0.5em;
 }
 .about {
     display: flex;
@@ -227,34 +259,4 @@ span{
 
 
 
-  /* image overlay */
-  .container {
-     position:relative ;
-  }
-  .imagetext {
-position: absolute;
-font-family: monospace;
-color: #252839;
-font-weight: bold;
-font-size: 40px;
-letter-spacing: 2px;
-top: 30%;
-left: 30%;
-text-align: center;
-opacity: 0;
-  }
-.container:hover .imagetext {
-opacity: 1;
-  }
-.color img{
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    -webkit-transition: all 1s ease;
-}
-.color img:hover {
-    filter: grayscale(0%);
-    filter: gray;
-    -webkit-filter: grayscale(0%);
-    filter: none;
-    transition: 1s ease;
-}
+  
