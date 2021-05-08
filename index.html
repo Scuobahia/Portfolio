@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,31 +8,33 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
     <!-- Header -->
     <header>
         <div>
-           <h1>Antonio Sanchez</h1>
-        </div>     
-<nav>
-    <ul>
-        <li>
-            <a href="#about-me">About Me</a></li>
-        <li>
-            <a href="#work">Work</a>
-        </li>
-        <li>
-            <a href="#contact-me">Contact Me</a>
-        </li>
-        <li>
-            <a href="#resume">Resume</a>
-        </li>
-    </ul>
-</nav>
-<br><br>
-<Section class="hero">
-    <h2 data-text="Creativity Unleashed...">Creativity Unleashed...</h2>
-</Section>
+            <h1>Antonio Sanchez</h1>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about-me">About Me</a>
+                </li>
+                <li>
+                    <a href="#work">Work</a>
+                </li>
+                <li>
+                    <a href="#contact-me">Contact Me</a>
+                </li>
+                <li>
+                    <a href="#resume">Resume</a>
+                </li>
+            </ul>
+        </nav>
+        <br><br>
+        <Section class="hero">
+            <h2 data-text="Creativity Unleashed...">Creativity Unleashed...</h2>
+        </Section>
     </header>
     <!-- Hero/Jumbotron -->
     <section>
@@ -43,7 +46,11 @@
                 <p class="text">Website Development</p>
             </div>
             <div class="web-development">
-                <a href="#"><img class="images"src="./assets/images/buddy.png" alt=""></a>
+                <div>
+                    <a href="#"><img class="images zoom" src="./assets/images/buddy.png" alt=""></a>
+                    <div class="centered zoom">Run Buddy</div>
+                </div>
+
                 <a href="#"><img class="images" src="./assets/images/mall .jpg" alt=""></a>
                 <a href="#"><img class="images" src="./assets/images/home.png" alt=""></a>
             </div>
@@ -53,76 +60,88 @@
         <section>
             <h3 class="text">Graphic Design</h3>
             <div class="graphic-design">
-                <a href="#"><img class="images2 zoom" src="./assets/images/samurai.jpg" alt=""></a>
+                <div class="container">
+                    <a href="#"><img class="images2 zoom" src="./assets/images/samurai.jpg" alt=""></a>
+                    <div class="imagetext">
+                        <p>Samurai</p>
+                    </div>
+                </div>
+
                 <a href="#"><img class="images2 zoom" src="./assets/images/face.jpg" alt=""></a>
                 <a href="#"><img class="images2 zoom" src="./assets/images/zebra.jpg" alt=""></a>
                 <a href="#"><img class="images2 zoom" src="./assets/images/graphic.jpg" alt=""></a>
             </div>
             <br><br>
         </section>
-       <!-- End Graphic Design -->
-       <!-- About Me Styles -->
-<Section id="about-me">
-    <h3 class="title"><span><</span>An Open Book<span>></span></h3>
-    <div>
-        <img class="images3" src="./assets/images/ME.jpeg" alt="">
-    </div>
-    <article>
-        <h3>J. Antonio Sanchez</h3>
-        <p>
-            Hey there! Aside from creating cool websites and art like 
-            the ones you just had the pleasure of browsing through 
-            (which there is plenty more on the way) I balance a chaotic and comforting family life.
-            I have a beatiful wife and four incredible children.
-            I love to play chess, and not to brag but I am almost pass a 2000 rating! 
-            Playing video games is a must in my scarce 
-            free time. To be honest, my Playstaion sees more Netflix than actual games
-            but it does get to enjoy a good RPG every once in a while. 
-            Essentially, I love building and not only web content, I also own a 
-            construction bussiness and I have a passion for building smart, modern 
-            and beautiful homes. 
+        <!-- End Graphic Design -->
+        <!-- About Me Styles -->
+        <Section id="about-me">
+            <div>
+                <h3 class="title">
+                        <span><</span>An Open Book<span>></span></h3>
+            </div>
 
-        </p>
-    </article>
-</Section>
-<!-- End About Me Styles -->
+            
+                
+
+                <article class="about">
+                 
+                    <h3>J. Antonio Sanchez</h3>
+                    <p>
+                        Hey there! Aside from creating cool websites and art like
+                        the ones you just had the pleasure of browsing through
+                        (which there is plenty more on the way) I balance a chaotic and comforting family life.
+                        I have a beatiful wife and four incredible children.
+                        I love to play chess, and not to brag but I am almost pass a 2000 rating!
+                        Playing video games is a must in my scarce
+                        free time. To be honest, my Playstaion sees more Netflix than actual games
+                        but it does get to enjoy a good RPG every once in a while.
+                        Essentially, I love building and not only web content, I also own a
+                        construction bussiness and I have a passion for building smart, modern
+                        and beautiful homes.
+
+                    </p>
+                    <img class="images3" src="./assets/images/ME.jpeg" alt="">
+            </article>
+        </Section>
+        <!-- End About Me Styles -->
         <!-- Reach Out Section -->
         <section id="contact-me">
             <h3 class="title">Please stop by and say "Hello"<span>!</span></h3>
             <div>
                 <div class="contact-info">
                     <div>
-                      <p>
-                        I love to create, design and bring to life Ideas
-                        <br />
-                        Let me know how we can work together and I'll be happy to talk to you!
-                      </p>
-                      <address>
-                        1618 Nowhere Street <br />
-                        Forgotten Town, NE <br />
-                        12345 <br />
-                        Phone No.: <a href="tel:555.786.2839">123 (555.786.2839)</a><br />
-                        Email: <a href="mailto://info@runbuddy.io">info@asanz.io</a>
-                      </address>
+                        <p>
+                            I love to create, design and bring to life Ideas
+                            <br />
+                            Let me know how we can work together and I'll be happy to talk to you!
+                        </p>
+                        <address>
+                            1618 Nowhere Street <br />
+                            Forgotten Town, NE <br />
+                            12345 <br />
+                            Phone No.: <a href="tel:555.786.2839">123 (555.786.2839)</a><br />
+                            Email: <a href="mailto://info@runbuddy.io">info@asanz.io</a>
+                        </address>
                     </div>
                     <div class="contact-form">
-                      <h3>Contact <span>M</span>e</h3>
-                      <form>
-                        <label for="contact-name">Your Name</label>
-                        <input type="text" id="contact-name" placeholder="Your Name" />
-                        <label for="email-me">Your Email</label>
-                        <input type="email" id="email-me" placeholder="Your Email">
-                        <label for="contact-message">Message</label>
-                        <textarea id="contact-message" placeholder="Message"></textarea>
-                        <button type="submit">Submit</button>
-                      </form>
+                        <h3>Contact <span>M</span>e</h3>
+                        <form>
+                            <label for="contact-name">Your Name</label>
+                            <input type="text" id="contact-name" placeholder="Your Name" />
+                            <label for="email-me">Your Email</label>
+                            <input type="email" id="email-me" placeholder="Your Email">
+                            <label for="contact-message">Message</label>
+                            <textarea id="contact-message" placeholder="Message"></textarea>
+                            <button type="submit">Submit</button>
+                        </form>
                     </div>
                 </div>
             </div>
         </section>
         <!-- End of Reach Out -->
     </section>
-   
+
     <!-- Footer -->
     <footer>
         <h2>
@@ -131,6 +150,7 @@
         <div></div>
     </footer>
 
-    
+
 </body>
+
 </html>

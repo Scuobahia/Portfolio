@@ -98,7 +98,7 @@ span{
     padding: 15px;
     border: 1px solid #01fe87;
     border-radius: 4px;
-    width: 800px;
+    height: 30em; margin-right: 1%;margin-bottom: 0.5em;
 }
 .web-development {
     display: flex;
@@ -115,7 +115,7 @@ span{
     padding: 15px;
     border: 1px solid #252839;
     border-radius: 4px;
-    width: 700px;
+    height: 30em; margin-right: 1%;margin-bottom: 0.5em;
 }
 .text {
        display: flex;
@@ -141,8 +141,15 @@ span{
     padding: 15px;
     border: 1px solid #F2B157;
     border-radius: 4px;
-    width: 700px;
-
+    height: 50em; margin-right: 1%;margin-bottom: 0.5em;
+}
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    color: #252839;
+    text-align: center;
+  
 }
 /* Reach out Style*/
 .contact-info {
@@ -204,5 +211,33 @@ span{
 .contact-info a {
     color:#01fe87;
 }
+.centered {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+    top: 50%;
+    left: 50%;
+    font-weight: bolder;
+    font-family: monospace;
+    font-size: 20px;
+    color: #252839;}
   /* Reach Out Stylet ends */
 
+ 
+
+
+
+  /* image overlay */
+  .container {
+     position:relative ;
+  }
+  .imagetext {
+position: absolute;
+font-family: monospace;
+top: 50%;
+left: 50%;
+opacity: 0;
+  }
+.container:hover .imagetext {
+opacity: 1;
+  }
