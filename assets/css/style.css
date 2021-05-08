@@ -121,13 +121,14 @@ span{
 position: absolute;
 font-family: monospace;
 color: #252839;
-font-weight: bold;
+font-weight:lighter;
 font-size: 40px;
 letter-spacing: 2px;
 top: 30%;
 left: 30%;
 text-align: center;
 opacity: 0;
+transition: 3s ease;
  }
 .container:hover .imagetext {
 opacity: 1;
