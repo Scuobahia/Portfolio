@@ -135,7 +135,15 @@ span{
     opacity: 0.3;
     }
   
+/* About me Styles */
+.images3 {
+    margin: 50px;
+    padding: 15px;
+    border: 1px solid #F2B157;
+    border-radius: 4px;
+    width: 700px;
 
+}
 /* Reach out Style*/
 .contact-info {
     background-color: #F2B157;
