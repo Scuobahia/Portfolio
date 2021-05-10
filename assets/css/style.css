@@ -221,7 +221,7 @@ opacity: 1;
     display: block;
     padding: 7px 15px;
     font-size: 16px;
-    color:#01fe87 ;
+    color:#252839 ; 
     width: 50%;
     margin-bottom: 15px;
     margin-top: 5px;
@@ -259,6 +259,34 @@ opacity: 1;
     font-size: 20px;
     color: #252839;}
   /* Reach Out Stylet ends */
+  /* Footer Begins */
+  footer h2 {
+    text-align: center;
+    width: 100%;
+  }
+  footer {
+    background:#252839;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 15px;
+    height: 50px;
+  }
+  
+  footer h2 {
+    color:#01fe87;
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 0;
+  }
+  
+  footer div {
+    line-height: 1.5;
+    text-align: right;
+  }
+
 
  /* MEDIA QUERY FOR 980px */
 @media screen and (max-width: 980px) {
@@ -332,7 +360,7 @@ opacity: 1;
     } 
       }
       section h2, section h2::before{
-        font-size: 3vh;
+        font-size: 10vh;
     }
   }
   
